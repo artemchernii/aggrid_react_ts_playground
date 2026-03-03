@@ -4,8 +4,9 @@ This project is a small playground built with **React**, **TypeScript**, and **A
 
 It demonstrates:
 - AG Grid module registration for row model, row drag, and filter modules
+- AG Grid Tree Data with hierarchical paths (`treeData` + `getDataPath`)
 - Legacy CSS theming (`ag-theme-alpine`) with `theme="legacy"`
-- Drag and drop row reordering from the `make` column (`rowDrag: true`)
+- Drag and drop row reordering in tree mode from the hierarchy column
 - A sample dataset with multiple car rows
 - Basic sorting and filtering on columns
 
@@ -15,6 +16,7 @@ It demonstrates:
 - TypeScript
 - Vite
 - ag-grid-community
+- ag-grid-enterprise
 - ag-grid-react
 
 ## Getting Started
